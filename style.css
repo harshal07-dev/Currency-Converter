@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 100%);;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding:2rem;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: black;
+    min-height: 19rem;
+    width: 40vh;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(0, 193, 237) 0px 0px 0px 9px, rgb(140, 255, 0) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+h2 {
+    font-family: sans-serif;
+    color: rgb(65, 0, 65);
+
+}
+form {
+    margin: 2rem 0 1rem 0;
+}
+form select, input, button {
+    width: 100%;
+    border: none;
+    outline: none;
+} 
+form input {
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 1rem;
+    height: 2rem;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i {
+    font-size: 1.2rem;
+    color: rgb(94, 0, 94);
+    margin-top: 1rem;
+}
+p {
+    font-weight: 500;
+}
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+
+}
+.select-container img {
+    max-width: 2.5rem;
+    object-fit: cover;
+}
+.select-container select {
+    font-size: 1.1rem;
+    width: auto;
+}
+.msg {
+    margin: 1.5rem 0 1.2rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+button {
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    height: 3rem;
+}
+button:hover {
+    background: #EDDD53;
+    background: linear-gradient(90100493deg, rgba(237, 221, 83, 1) 0%, rgba(87, 199, 133, 1) 49%, rgba(42, 123, 155, 1) 100%);
+    color: #6b07ad;
+    cursor: pointer;
+}   
